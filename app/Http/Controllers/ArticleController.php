@@ -28,6 +28,6 @@ class ArticleController extends Controller
                             ->get();
     
         return view('category', compact('articles'));
-        }
+    }
     
 }
